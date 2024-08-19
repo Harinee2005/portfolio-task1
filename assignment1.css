@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.navbar{
+    text-align: center;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Roboto";
+    margin: 4px;
+    color: black;
+}
+
+a:hover{
+    color:crimson;
+}
+
+.profile{
+    height: 20%;
+    width: 30%;
+    margin: 30px;
+}
+
+.home-page{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.description{
+    margin-top: 80px;
+}
+
+.name{
+    font-family: "Roboto";
+    font-size: 40px;
+}
+
+.name-span{
+    color: crimson;
+}
+
+.button{
+    background-color: crimson;
+    font-family: "Roboto";
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.about-me{
+    padding: 30px;
+}
+
+.aboutme-para{
+    color:rgb(50, 49, 49);
+    font-family: "Roboto";
+}
+
+table {
+    font-family: "Roboto";
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+.education{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu-img{
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+
+.contact-form {
+    border-radius: 10px;
+    border-width: 1px;
+    height: 40px;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.message-box {
+    border-radius: 10px;
+    border-width: 1px;
+    height: 100px;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.follow-icon{
+    margin-top: 10px;
+    font-size: 30px;
+}
